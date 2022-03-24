@@ -1,0 +1,108 @@
+
+body{
+    overflow-x: hidden;
+}
+.bg-top{
+    background: url("../image/bg.jpg"); /*background foto*/
+    background-size: cover;
+    min-height: 750px;
+    max-height: 1100px;
+    position: relative;
+}
+.bg-text{
+    border: 3px solid #747272;
+    width: 450px;
+    height: 430px;
+    padding: 63px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.7); /*Memberikan efek blur*/
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+ 
+}
+.bg-profile {
+    width: 160px;
+    height: 160px;
+    margin-top: 10px;
+    vertical-align: middle;
+    border: 3px solid #747272;
+    border-radius: 50%;
+    
+}
+.name{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: azure;
+    font-weight: 100px;
+    
+}
+.study{
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+}
+.gambar{
+    padding-left: 150px;
+}
+.banner{
+    padding-top: 100px;
+}
+.banner-img {
+    border-style:solid;border-image: linear-gradient(white,transparent) 1;border-bottom:0; /*Efek pada garis*/
+    width: 450px;
+    height: 430px;
+    padding: 63px;
+    margin: 0 auto;
+    text-align: center;
+}
+.image {
+    width: 133px;
+    height: 133px;
+    margin-top: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+    
+}
+.row {
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+#aboutme{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.perkenalan{
+    margin: 50px auto 50px auto;
+    text-align:left;
+    width: 450px;
+    height: 430px;
+    padding-top: 50px;
+}
+.perkenalan-teks{
+    padding-left: 0px;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 17px;
+}
+.foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-radius:10%;
+    border: 3px solid rgb(46, 44, 44);
+}
+.hobi{
+    text-align: center; /*agar teks di tengah */
+}
